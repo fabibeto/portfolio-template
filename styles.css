@@ -74,7 +74,7 @@ body {
 }
 
 .half-section {
-  width: 50%;
+  width: 35%;
 }
 
 .avatar-container {
@@ -120,7 +120,7 @@ h1 {
 .text-section {
   background-color: var(--primary-color);
   display: flex;
-  flex-direction: column;
+   flex-direction: column; 
   justify-content: center;
   color: var(--accent-color);
   letter-spacing: 1px;
@@ -195,6 +195,36 @@ form {
   color: var(--accent-color);
 }
 
+.contenedor-padre-1{
+  display: flex;
+   justify-content: space-around; 
+  margin-top: 70px;
+  padding: 20px;
+}
+.contenedor-padre-2{
+  display: flex; 
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px;
+}
+.contenedor-padre-3{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+.tecnologias{
+   float: right; 
+   margin-right: 100px; 
+  margin-top: -250px;
+  /* align-items: center; */
+  /* background-color: var(--accent-color); */
+  color: var(--primary-color-dark);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 40px;
+}
 footer {
   display: flex;
   flex-direction: column;
